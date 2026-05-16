@@ -102,6 +102,25 @@ h2 {
   font-weight: 700;
 }
 
+.news-list {
+  list-style: none;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.news-list li {
+  display: flex;
+  gap: 12px;
+  padding: 3px 0;
+  line-height: 1.45;
+}
+
+.news-date {
+  flex: 0 0 70px;
+  color: #666;
+  font-weight: 700;
+}
+
 .name {
   padding-top: 20px;
   margin: 0;
